@@ -1,0 +1,286 @@
+/* General body styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    /* Slider Section */
+.slider-section {
+    text-align: center;
+    position: relative;
+    margin: 30px 0; /* Add margin for spacing */
+}
+
+.slider {
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.slide {
+    display: none; /* Hide all slides by default */
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide img {
+    width: 100%; /* Make the image responsive */
+    border-radius: 10px;
+}
+
+.slide.active {
+    display: flex; /* Show the active slide */
+}
+
+/* Navigation buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    color: rgb(30, 23, 23);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+}
+
+/* Header styling */
+header {
+    background-color: #ffffff;
+    color: rgb(137, 34, 34);
+font-style:initial;
+    font-size:xxx-large;
+    text-align: center;
+    padding: 20px;
+}
+header {
+    /* Video section styling */
+.video-section {
+    padding: 10px;
+    color: #4ca637;
+    border-bottom-style: ridge;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.video-section video {
+    width: 100%;
+    max-width: 50000px;
+    height: auto;
+    border-radius: 10px;
+}
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;;
+    background-color: 
+    color:#8B4513
+    font-size: 20px;
+    font-size: xxx-large;
+}
+
+/* Section for product features */
+.product-section {
+    padding: 50px;
+    text-align: center#ffffff;
+}
+
+.product-section h2 {
+    margin-bottom: 20px;
+    font-size: 3cm;
+    color: rgb(90, 133, 119);
+}
+fetured produycts
+.product-section ul {
+    list-style-type: none;
+}
+
+
+
+.product-section ul li {
+    font-size: 1cm;
+    margin-bottom: 10px;
+}
+/* packet Section */
+.slider-section {
+    text-align: center;
+    position: relative;
+    color: rgb(16, 66, 19);
+    margin: 30px 0; /* Add margin for spacing */
+}
+
+.slider {
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.slide {
+    display: none; /* Hide all slides by default */
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide img {
+    width: 100%; /* Make the image responsive */
+    border-radius: 10px;
+    colo
+}
+
+.slide.active {
+    display: flex; /* Show the active slide */
+}
+
+/* Navigation buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    color: rgb(80, 60, 60);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Image section styling */
+.image-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.image-section img {
+    width: 80%;
+    height: auto;
+ 
+    max-width: 50000px;
+    border-radius: 10px;
+}
+
+/* Video section styling */
+.video-section {
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.video-section video {
+    width: 100%;
+    max-width: 50000px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #ffffff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p, footer a {
+    color: white;
+    margin: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+footer {
+    background-color: #8B4513; /* Coffee color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content h2,
+.footer-content h3 {
+    margin: 10px 0;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    color: #FFD700; /* Gold color for links */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+header {
+    color: #dbdbdb;
+}
+header {
+    color: rgb(0, 0, 0);
+    size: 1cm;
+}
+header {
+    color: #FFD700;
+}
+body {
+    text-align: center;
+    font-size: xxx-large;
+    text-size-adjust:var(-100%);
+}
+body {
+    background-color: azure;
+}
+footer {
+    font-size: small;
+    background-color: #a07c62;
+    color: black;
+}
+header {
+    color: black;
+}
